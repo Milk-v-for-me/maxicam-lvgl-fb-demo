@@ -33,7 +33,7 @@ int main(void)
     disp_drv.ver_res    = 552;
     lv_disp_drv_register(&disp_drv);
 
-#if 0
+//#if 0
     evdev_init();
     static lv_indev_drv_t indev_drv_1;
     lv_indev_drv_init(&indev_drv_1); /*Basic initialization*/
@@ -49,7 +49,7 @@ int main(void)
     lv_obj_t * cursor_obj = lv_img_create(lv_scr_act()); /*Create an image object for the cursor */
     lv_img_set_src(cursor_obj, &mouse_cursor_icon);           /*Set the image source*/
     lv_indev_set_cursor(mouse_indev, cursor_obj);             /*Connect the image  object to the driver*/
-#endif
+//#endif
 
 
     /*Create a Demo*/
