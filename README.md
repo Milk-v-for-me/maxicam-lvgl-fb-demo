@@ -1,6 +1,7 @@
-#  MaxiCam lvgl8 demo (modified from duo-lvgl-fb-demo)
+#  MaxiCam lvgl8 demo 
+(modified from duo-lvgl-fb-demo)
 
-# enable the framebuffer display on your Maxicam
+enable the framebuffer display on your Maxicam
 https://wiki.sipeed.com/hardware/en/lichee/RV_Nano/5_peripheral.html
 
 If you want to use the framebuffer function, create a file named fb in the first partition of the sd card:
